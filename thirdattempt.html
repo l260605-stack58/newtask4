@@ -1,0 +1,164 @@
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: whitesmoke;
+    }
+
+ 
+    .container {
+      width: 750px;
+      margin: 0 auto;
+      background-color: white;
+      padding: 10px;
+    }
+
+  
+    .header {
+      background-color: powderblue;
+      text-align: right;
+      padding: 15px 20px;
+      margin-bottom: 15px;
+    }
+
+    .header h1 {
+      color: lightseagreen;
+      margin: 0;
+      font-size: 28px;
+      font-weight: normal;
+    }
+
+    .header p {
+      color: lightseagreen;
+      margin: 5px 0 0 0;
+      font-size: 16px;
+    }
+
+       .main-layout {
+      display: flex;
+      gap: 15px;
+      align-items: flex-start;
+    }
+
+       .sidebar {
+      width: 180px;
+      background-color: lightseagreen;
+      border: 3px solid teal;
+      padding: 15px;
+      box-sizing: border-box;
+    }
+
+    .sidebar h2 {
+      color: darkslategray;
+      font-size: 26px;
+      margin: 0 0 15px 0;
+      font-weight: normal;
+    }
+
+    .sidebar ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    .sidebar li {
+      color: darkslategray;
+      font-size: 13px;
+      margin-bottom: 5px;
+    }
+
+       .entries-column {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+        .entry-card {
+      border: 3px solid powderblue;
+      padding: 12px;
+      background-color: white;
+      overflow: hidden;
+    }
+
+    .entry-title {
+      color: lightseagreen;
+      font-size: 22px;
+      margin: 0 0 10px 0;
+      font-weight: normal;
+    }
+
+    .date-underline {
+      color: lightseagreen;
+      text-decoration: underline;
+      text-decoration-style: dashed;
+      text-decoration-color: blue;
+    }
+
+    .entry-text {
+      color: rosybrown;
+      font-size: 14px;
+      line-height: 1.4;
+      margin: 0;
+    }
+
+    .entry-img {
+      float: right;
+      margin-left: 15px;
+      margin-bottom: 5px;
+      width: 140px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="header">
+    <h1>Victoria's Journal</h1>
+    <p>So fresh and so clean</p>
+  </div>
+
+  
+  <div class="main-layout">
+
+    <div class="sidebar">
+      <h2>Friends</h2>
+      <ul>
+        <li>390 Buddies</li>
+        <li><b>Big Will</b></li>
+        <li>Conan the Librarian</li>
+      </ul>
+    </div>
+
+    <div class="entries-column">
+
+      <div class="entry-card">
+        <img src="https://www.bing.com/th/id/OIP.ItfQyoLP7fXWfdSJc92mPwHaEi?w=220&h=128&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=ImgAns&rm=2" class="entry-img" alt="Spatula">
+        <h2 class="entry-title">
+          <span class="date-underline">04/09/08</span>: Spatulas
+        </h2>
+        <p class="entry-text">
+          Yesterday, I went to the store and got some much needed spatulas! (what better way to say I love myself than to buy myself a spatula?)
+        </p>
+      </div>
+      <div class="entry-card">
+        <img src="https://www.bing.com/th/id/OIP.XcEqLDK04zFN8pg7axlXygHaHa?w=143&h=104&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=ImgAns&rm=2" class="entry-img" class="entry-img" alt="Cookie Cupcakes">
+        <h2 class="entry-title">
+          <span class="date-underline">04/08/08</span>: Cookie Cupcakes
+        </h2>
+        <p class="entry-text">
+          My favorite cartoon character is cookie, and my favorite dessert is cupcakes. So Cookie Cupcakes are best of both the worlds. Did you know? Cookie character once said, "Sometimes me think what is love, and then me think love is what cookie is for. Me give up the last cookie for you. " I wonder if the same applies for the cupcakes? (If so, I don't think I can ever love ANYONE!)
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
